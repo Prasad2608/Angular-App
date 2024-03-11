@@ -1,0 +1,14 @@
+<form>
+
+    <input type="text" placeholder="username" name="username" [(ngModel)] ="user.username"> <br><br>
+
+    <input type="text" placeholder="password" name="password" [(ngModel)] ="user.password"> <br><br>
+
+    <input type="number" placeholder="number" name="mobno" [(ngModel)] ="user.mobno"> <br><br>
+
+    <input type="text" placeholder="email id" name="emailid" [(ngModel)] ="user.emailId"> <br><br>
+
+   <input type="button" value="register" (click)="saveToDB()">
+
+
+</form>
